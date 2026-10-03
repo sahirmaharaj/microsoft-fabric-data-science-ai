@@ -1,0 +1,602 @@
+[
+  {
+    "workflow_number": 1737,
+    "workflow_name": "solar_farm_curtailment_forecaster",
+    "title": "Solar Farm Curtailment Forecaster",
+    "domain": "renewable grid operations analytics",
+    "motif": "curtailment",
+    "notebook": "notebooks/1737_solar_farm_curtailment_forecaster.ipynb",
+    "script": "scripts/1737_solar_farm_curtailment_forecaster.py",
+    "expected_output_dir": "outputs/1737_solar_farm_curtailment_forecaster"
+  },
+  {
+    "workflow_number": 1738,
+    "workflow_name": "wind_turbine_wake_loss_model",
+    "title": "Wind Turbine Wake Loss Model",
+    "domain": "renewable grid operations analytics",
+    "motif": "wakeloss",
+    "notebook": "notebooks/1738_wind_turbine_wake_loss_model.ipynb",
+    "script": "scripts/1738_wind_turbine_wake_loss_model.py",
+    "expected_output_dir": "outputs/1738_wind_turbine_wake_loss_model"
+  },
+  {
+    "workflow_number": 1739,
+    "workflow_name": "battery_dispatch_margin_optimizer",
+    "title": "Battery Dispatch Margin Optimizer",
+    "domain": "renewable grid operations analytics",
+    "motif": "dispatchmargin",
+    "notebook": "notebooks/1739_battery_dispatch_margin_optimizer.ipynb",
+    "script": "scripts/1739_battery_dispatch_margin_optimizer.py",
+    "expected_output_dir": "outputs/1739_battery_dispatch_margin_optimizer"
+  },
+  {
+    "workflow_number": 1740,
+    "workflow_name": "grid_interconnection_delay_monitor",
+    "title": "Grid Interconnection Delay Monitor",
+    "domain": "renewable grid operations analytics",
+    "motif": "interconnect",
+    "notebook": "notebooks/1740_grid_interconnection_delay_monitor.ipynb",
+    "script": "scripts/1740_grid_interconnection_delay_monitor.py",
+    "expected_output_dir": "outputs/1740_grid_interconnection_delay_monitor"
+  },
+  {
+    "workflow_number": 1741,
+    "workflow_name": "renewable_forecast_error_detector",
+    "title": "Renewable Forecast Error Detector",
+    "domain": "renewable grid operations analytics",
+    "motif": "forecastshift",
+    "notebook": "notebooks/1741_renewable_forecast_error_detector.ipynb",
+    "script": "scripts/1741_renewable_forecast_error_detector.py",
+    "expected_output_dir": "outputs/1741_renewable_forecast_error_detector"
+  },
+  {
+    "workflow_number": 1742,
+    "workflow_name": "green_power_settlement_scorecard",
+    "title": "Green Power Settlement Scorecard",
+    "domain": "renewable grid operations analytics",
+    "motif": "settlement",
+    "notebook": "notebooks/1742_green_power_settlement_scorecard.ipynb",
+    "script": "scripts/1742_green_power_settlement_scorecard.py",
+    "expected_output_dir": "outputs/1742_green_power_settlement_scorecard"
+  },
+  {
+    "workflow_number": 1743,
+    "workflow_name": "museum_visitor_flow_forecaster",
+    "title": "Museum Visitor Flow Forecaster",
+    "domain": "museum collections analytics",
+    "motif": "visitorflow",
+    "notebook": "notebooks/1743_museum_visitor_flow_forecaster.ipynb",
+    "script": "scripts/1743_museum_visitor_flow_forecaster.py",
+    "expected_output_dir": "outputs/1743_museum_visitor_flow_forecaster"
+  },
+  {
+    "workflow_number": 1744,
+    "workflow_name": "artifact_conservation_priority_model",
+    "title": "Artifact Conservation Priority Model",
+    "domain": "museum collections analytics",
+    "motif": "conservation",
+    "notebook": "notebooks/1744_artifact_conservation_priority_model.ipynb",
+    "script": "scripts/1744_artifact_conservation_priority_model.py",
+    "expected_output_dir": "outputs/1744_artifact_conservation_priority_model"
+  },
+  {
+    "workflow_number": 1745,
+    "workflow_name": "exhibit_engagement_anomaly_detector",
+    "title": "Exhibit Engagement Anomaly Detector",
+    "domain": "museum collections analytics",
+    "motif": "engagement",
+    "notebook": "notebooks/1745_exhibit_engagement_anomaly_detector.ipynb",
+    "script": "scripts/1745_exhibit_engagement_anomaly_detector.py",
+    "expected_output_dir": "outputs/1745_exhibit_engagement_anomaly_detector"
+  },
+  {
+    "workflow_number": 1746,
+    "workflow_name": "collection_digitization_queue_optimizer",
+    "title": "Collection Digitization Queue Optimizer",
+    "domain": "museum collections analytics",
+    "motif": "digitization",
+    "notebook": "notebooks/1746_collection_digitization_queue_optimizer.ipynb",
+    "script": "scripts/1746_collection_digitization_queue_optimizer.py",
+    "expected_output_dir": "outputs/1746_collection_digitization_queue_optimizer"
+  },
+  {
+    "workflow_number": 1747,
+    "workflow_name": "donor_membership_retention_scorecard",
+    "title": "Donor Membership Retention Scorecard",
+    "domain": "museum collections analytics",
+    "motif": "membership",
+    "notebook": "notebooks/1747_donor_membership_retention_scorecard.ipynb",
+    "script": "scripts/1747_donor_membership_retention_scorecard.py",
+    "expected_output_dir": "outputs/1747_donor_membership_retention_scorecard"
+  },
+  {
+    "workflow_number": 1748,
+    "workflow_name": "loaned_artwork_risk_monitor",
+    "title": "Loaned Artwork Risk Monitor",
+    "domain": "museum collections analytics",
+    "motif": "artloan",
+    "notebook": "notebooks/1748_loaned_artwork_risk_monitor.ipynb",
+    "script": "scripts/1748_loaned_artwork_risk_monitor.py",
+    "expected_output_dir": "outputs/1748_loaned_artwork_risk_monitor"
+  },
+  {
+    "workflow_number": 1749,
+    "workflow_name": "ev_depot_charging_load_forecaster",
+    "title": "Ev Depot Charging Load Forecaster",
+    "domain": "electric fleet charging analytics",
+    "motif": "evload",
+    "notebook": "notebooks/1749_ev_depot_charging_load_forecaster.ipynb",
+    "script": "scripts/1749_ev_depot_charging_load_forecaster.py",
+    "expected_output_dir": "outputs/1749_ev_depot_charging_load_forecaster"
+  },
+  {
+    "workflow_number": 1750,
+    "workflow_name": "charger_fault_pattern_detector",
+    "title": "Charger Fault Pattern Detector",
+    "domain": "electric fleet charging analytics",
+    "motif": "chargerfault",
+    "notebook": "notebooks/1750_charger_fault_pattern_detector.ipynb",
+    "script": "scripts/1750_charger_fault_pattern_detector.py",
+    "expected_output_dir": "outputs/1750_charger_fault_pattern_detector"
+  },
+  {
+    "workflow_number": 1751,
+    "workflow_name": "route_energy_buffer_optimizer",
+    "title": "Route Energy Buffer Optimizer",
+    "domain": "electric fleet charging analytics",
+    "motif": "energybuffer",
+    "notebook": "notebooks/1751_route_energy_buffer_optimizer.ipynb",
+    "script": "scripts/1751_route_energy_buffer_optimizer.py",
+    "expected_output_dir": "outputs/1751_route_energy_buffer_optimizer"
+  },
+  {
+    "workflow_number": 1752,
+    "workflow_name": "battery_degradation_scorecard",
+    "title": "Battery Degradation Scorecard",
+    "domain": "electric fleet charging analytics",
+    "motif": "degradation",
+    "notebook": "notebooks/1752_battery_degradation_scorecard.ipynb",
+    "script": "scripts/1752_battery_degradation_scorecard.py",
+    "expected_output_dir": "outputs/1752_battery_degradation_scorecard"
+  },
+  {
+    "workflow_number": 1753,
+    "workflow_name": "charging_tariff_arbitrage_lab",
+    "title": "Charging Tariff Arbitrage Lab",
+    "domain": "electric fleet charging analytics",
+    "motif": "tariffarb",
+    "notebook": "notebooks/1753_charging_tariff_arbitrage_lab.ipynb",
+    "script": "scripts/1753_charging_tariff_arbitrage_lab.py",
+    "expected_output_dir": "outputs/1753_charging_tariff_arbitrage_lab"
+  },
+  {
+    "workflow_number": 1754,
+    "workflow_name": "fleet_range_anxiety_monitor",
+    "title": "Fleet Range Anxiety Monitor",
+    "domain": "electric fleet charging analytics",
+    "motif": "rangegap",
+    "notebook": "notebooks/1754_fleet_range_anxiety_monitor.ipynb",
+    "script": "scripts/1754_fleet_range_anxiety_monitor.py",
+    "expected_output_dir": "outputs/1754_fleet_range_anxiety_monitor"
+  },
+  {
+    "workflow_number": 1755,
+    "workflow_name": "radiology_case_turnaround_forecaster",
+    "title": "Radiology Case Turnaround Forecaster",
+    "domain": "clinical imaging operations analytics",
+    "motif": "turnaround",
+    "notebook": "notebooks/1755_radiology_case_turnaround_forecaster.ipynb",
+    "script": "scripts/1755_radiology_case_turnaround_forecaster.py",
+    "expected_output_dir": "outputs/1755_radiology_case_turnaround_forecaster"
+  },
+  {
+    "workflow_number": 1756,
+    "workflow_name": "scan_quality_exception_detector",
+    "title": "Scan Quality Exception Detector",
+    "domain": "clinical imaging operations analytics",
+    "motif": "scanquality",
+    "notebook": "notebooks/1756_scan_quality_exception_detector.ipynb",
+    "script": "scripts/1756_scan_quality_exception_detector.py",
+    "expected_output_dir": "outputs/1756_scan_quality_exception_detector"
+  },
+  {
+    "workflow_number": 1757,
+    "workflow_name": "modality_capacity_balance_optimizer",
+    "title": "Modality Capacity Balance Optimizer",
+    "domain": "clinical imaging operations analytics",
+    "motif": "modality",
+    "notebook": "notebooks/1757_modality_capacity_balance_optimizer.ipynb",
+    "script": "scripts/1757_modality_capacity_balance_optimizer.py",
+    "expected_output_dir": "outputs/1757_modality_capacity_balance_optimizer"
+  },
+  {
+    "workflow_number": 1758,
+    "workflow_name": "incidental_findings_followup_monitor",
+    "title": "Incidental Findings Followup Monitor",
+    "domain": "clinical imaging operations analytics",
+    "motif": "followup",
+    "notebook": "notebooks/1758_incidental_findings_followup_monitor.ipynb",
+    "script": "scripts/1758_incidental_findings_followup_monitor.py",
+    "expected_output_dir": "outputs/1758_incidental_findings_followup_monitor"
+  },
+  {
+    "workflow_number": 1759,
+    "workflow_name": "imaging_protocol_variance_scorecard",
+    "title": "Imaging Protocol Variance Scorecard",
+    "domain": "clinical imaging operations analytics",
+    "motif": "protocol",
+    "notebook": "notebooks/1759_imaging_protocol_variance_scorecard.ipynb",
+    "script": "scripts/1759_imaging_protocol_variance_scorecard.py",
+    "expected_output_dir": "outputs/1759_imaging_protocol_variance_scorecard"
+  },
+  {
+    "workflow_number": 1760,
+    "workflow_name": "radiologist_worklist_risk_lab",
+    "title": "Radiologist Worklist Risk Lab",
+    "domain": "clinical imaging operations analytics",
+    "motif": "worklist",
+    "notebook": "notebooks/1760_radiologist_worklist_risk_lab.ipynb",
+    "script": "scripts/1760_radiologist_worklist_risk_lab.py",
+    "expected_output_dir": "outputs/1760_radiologist_worklist_risk_lab"
+  },
+  {
+    "workflow_number": 1761,
+    "workflow_name": "library_branch_footfall_forecaster",
+    "title": "Library Branch Footfall Forecaster",
+    "domain": "public library analytics",
+    "motif": "branchfootfall",
+    "notebook": "notebooks/1761_library_branch_footfall_forecaster.ipynb",
+    "script": "scripts/1761_library_branch_footfall_forecaster.py",
+    "expected_output_dir": "outputs/1761_library_branch_footfall_forecaster"
+  },
+  {
+    "workflow_number": 1762,
+    "workflow_name": "book_hold_queue_pressure_model",
+    "title": "Book Hold Queue Pressure Model",
+    "domain": "public library analytics",
+    "motif": "holdqueue",
+    "notebook": "notebooks/1762_book_hold_queue_pressure_model.ipynb",
+    "script": "scripts/1762_book_hold_queue_pressure_model.py",
+    "expected_output_dir": "outputs/1762_book_hold_queue_pressure_model"
+  },
+  {
+    "workflow_number": 1763,
+    "workflow_name": "program_attendance_uplift_scorecard",
+    "title": "Program Attendance Uplift Scorecard",
+    "domain": "public library analytics",
+    "motif": "programuplift",
+    "notebook": "notebooks/1763_program_attendance_uplift_scorecard.ipynb",
+    "script": "scripts/1763_program_attendance_uplift_scorecard.py",
+    "expected_output_dir": "outputs/1763_program_attendance_uplift_scorecard"
+  },
+  {
+    "workflow_number": 1764,
+    "workflow_name": "digital_lending_anomaly_detector",
+    "title": "Digital Lending Anomaly Detector",
+    "domain": "public library analytics",
+    "motif": "digitallend",
+    "notebook": "notebooks/1764_digital_lending_anomaly_detector.ipynb",
+    "script": "scripts/1764_digital_lending_anomaly_detector.py",
+    "expected_output_dir": "outputs/1764_digital_lending_anomaly_detector"
+  },
+  {
+    "workflow_number": 1765,
+    "workflow_name": "collection_weeding_priority_optimizer",
+    "title": "Collection Weeding Priority Optimizer",
+    "domain": "public library analytics",
+    "motif": "weeding",
+    "notebook": "notebooks/1765_collection_weeding_priority_optimizer.ipynb",
+    "script": "scripts/1765_collection_weeding_priority_optimizer.py",
+    "expected_output_dir": "outputs/1765_collection_weeding_priority_optimizer"
+  },
+  {
+    "workflow_number": 1766,
+    "workflow_name": "library_access_equity_monitor",
+    "title": "Library Access Equity Monitor",
+    "domain": "public library analytics",
+    "motif": "accessequity",
+    "notebook": "notebooks/1766_library_access_equity_monitor.ipynb",
+    "script": "scripts/1766_library_access_equity_monitor.py",
+    "expected_output_dir": "outputs/1766_library_access_equity_monitor"
+  },
+  {
+    "workflow_number": 1767,
+    "workflow_name": "water_treatment_turbidity_forecaster",
+    "title": "Water Treatment Turbidity Forecaster",
+    "domain": "water treatment plant analytics",
+    "motif": "turbidity",
+    "notebook": "notebooks/1767_water_treatment_turbidity_forecaster.ipynb",
+    "script": "scripts/1767_water_treatment_turbidity_forecaster.py",
+    "expected_output_dir": "outputs/1767_water_treatment_turbidity_forecaster"
+  },
+  {
+    "workflow_number": 1768,
+    "workflow_name": "chemical_dosing_efficiency_model",
+    "title": "Chemical Dosing Efficiency Model",
+    "domain": "water treatment plant analytics",
+    "motif": "dosing",
+    "notebook": "notebooks/1768_chemical_dosing_efficiency_model.ipynb",
+    "script": "scripts/1768_chemical_dosing_efficiency_model.py",
+    "expected_output_dir": "outputs/1768_chemical_dosing_efficiency_model"
+  },
+  {
+    "workflow_number": 1769,
+    "workflow_name": "filter_backwash_anomaly_detector",
+    "title": "Filter Backwash Anomaly Detector",
+    "domain": "water treatment plant analytics",
+    "motif": "backwash",
+    "notebook": "notebooks/1769_filter_backwash_anomaly_detector.ipynb",
+    "script": "scripts/1769_filter_backwash_anomaly_detector.py",
+    "expected_output_dir": "outputs/1769_filter_backwash_anomaly_detector"
+  },
+  {
+    "workflow_number": 1770,
+    "workflow_name": "pump_energy_optimization_lab",
+    "title": "Pump Energy Optimization Lab",
+    "domain": "water treatment plant analytics",
+    "motif": "pumpenergy",
+    "notebook": "notebooks/1770_pump_energy_optimization_lab.ipynb",
+    "script": "scripts/1770_pump_energy_optimization_lab.py",
+    "expected_output_dir": "outputs/1770_pump_energy_optimization_lab"
+  },
+  {
+    "workflow_number": 1771,
+    "workflow_name": "regulatory_sample_compliance_scorecard",
+    "title": "Regulatory Sample Compliance Scorecard",
+    "domain": "water treatment plant analytics",
+    "motif": "samplecompliance",
+    "notebook": "notebooks/1771_regulatory_sample_compliance_scorecard.ipynb",
+    "script": "scripts/1771_regulatory_sample_compliance_scorecard.py",
+    "expected_output_dir": "outputs/1771_regulatory_sample_compliance_scorecard"
+  },
+  {
+    "workflow_number": 1772,
+    "workflow_name": "reservoir_inflow_risk_monitor",
+    "title": "Reservoir Inflow Risk Monitor",
+    "domain": "water treatment plant analytics",
+    "motif": "inflow",
+    "notebook": "notebooks/1772_reservoir_inflow_risk_monitor.ipynb",
+    "script": "scripts/1772_reservoir_inflow_risk_monitor.py",
+    "expected_output_dir": "outputs/1772_reservoir_inflow_risk_monitor"
+  },
+  {
+    "workflow_number": 1773,
+    "workflow_name": "timber_credit_cashflow_forecaster",
+    "title": "Timber Credit Cashflow Forecaster",
+    "domain": "forestry finance analytics",
+    "motif": "creditcashflow",
+    "notebook": "notebooks/1773_timber_credit_cashflow_forecaster.ipynb",
+    "script": "scripts/1773_timber_credit_cashflow_forecaster.py",
+    "expected_output_dir": "outputs/1773_timber_credit_cashflow_forecaster"
+  },
+  {
+    "workflow_number": 1774,
+    "workflow_name": "forest_asset_valuation_model",
+    "title": "Forest Asset Valuation Model",
+    "domain": "forestry finance analytics",
+    "motif": "assetvalue",
+    "notebook": "notebooks/1774_forest_asset_valuation_model.ipynb",
+    "script": "scripts/1774_forest_asset_valuation_model.py",
+    "expected_output_dir": "outputs/1774_forest_asset_valuation_model"
+  },
+  {
+    "workflow_number": 1775,
+    "workflow_name": "fire_insurance_premium_risk_lab",
+    "title": "Fire Insurance Premium Risk Lab",
+    "domain": "forestry finance analytics",
+    "motif": "firepremium",
+    "notebook": "notebooks/1775_fire_insurance_premium_risk_lab.ipynb",
+    "script": "scripts/1775_fire_insurance_premium_risk_lab.py",
+    "expected_output_dir": "outputs/1775_fire_insurance_premium_risk_lab"
+  },
+  {
+    "workflow_number": 1776,
+    "workflow_name": "harvest_contract_margin_monitor",
+    "title": "Harvest Contract Margin Monitor",
+    "domain": "forestry finance analytics",
+    "motif": "contractmargin",
+    "notebook": "notebooks/1776_harvest_contract_margin_monitor.ipynb",
+    "script": "scripts/1776_harvest_contract_margin_monitor.py",
+    "expected_output_dir": "outputs/1776_harvest_contract_margin_monitor"
+  },
+  {
+    "workflow_number": 1777,
+    "workflow_name": "carbon_offset_verification_detector",
+    "title": "Carbon Offset Verification Detector",
+    "domain": "forestry finance analytics",
+    "motif": "offsetverify",
+    "notebook": "notebooks/1777_carbon_offset_verification_detector.ipynb",
+    "script": "scripts/1777_carbon_offset_verification_detector.py",
+    "expected_output_dir": "outputs/1777_carbon_offset_verification_detector"
+  },
+  {
+    "workflow_number": 1778,
+    "workflow_name": "reforestation_financing_scorecard",
+    "title": "Reforestation Financing Scorecard",
+    "domain": "forestry finance analytics",
+    "motif": "reforestfinance",
+    "notebook": "notebooks/1778_reforestation_financing_scorecard.ipynb",
+    "script": "scripts/1778_reforestation_financing_scorecard.py",
+    "expected_output_dir": "outputs/1778_reforestation_financing_scorecard"
+  },
+  {
+    "workflow_number": 1779,
+    "workflow_name": "social_housing_waitlist_forecaster",
+    "title": "Social Housing Waitlist Forecaster",
+    "domain": "social housing operations analytics",
+    "motif": "waitlist",
+    "notebook": "notebooks/1779_social_housing_waitlist_forecaster.ipynb",
+    "script": "scripts/1779_social_housing_waitlist_forecaster.py",
+    "expected_output_dir": "outputs/1779_social_housing_waitlist_forecaster"
+  },
+  {
+    "workflow_number": 1780,
+    "workflow_name": "tenant_arrears_intervention_model",
+    "title": "Tenant Arrears Intervention Model",
+    "domain": "social housing operations analytics",
+    "motif": "arrears",
+    "notebook": "notebooks/1780_tenant_arrears_intervention_model.ipynb",
+    "script": "scripts/1780_tenant_arrears_intervention_model.py",
+    "expected_output_dir": "outputs/1780_tenant_arrears_intervention_model"
+  },
+  {
+    "workflow_number": 1781,
+    "workflow_name": "maintenance_backlog_priority_optimizer",
+    "title": "Maintenance Backlog Priority Optimizer",
+    "domain": "social housing operations analytics",
+    "motif": "maintbacklog",
+    "notebook": "notebooks/1781_maintenance_backlog_priority_optimizer.ipynb",
+    "script": "scripts/1781_maintenance_backlog_priority_optimizer.py",
+    "expected_output_dir": "outputs/1781_maintenance_backlog_priority_optimizer"
+  },
+  {
+    "workflow_number": 1782,
+    "workflow_name": "housing_allocation_equity_scorecard",
+    "title": "Housing Allocation Equity Scorecard",
+    "domain": "social housing operations analytics",
+    "motif": "allocation",
+    "notebook": "notebooks/1782_housing_allocation_equity_scorecard.ipynb",
+    "script": "scripts/1782_housing_allocation_equity_scorecard.py",
+    "expected_output_dir": "outputs/1782_housing_allocation_equity_scorecard"
+  },
+  {
+    "workflow_number": 1783,
+    "workflow_name": "property_condition_anomaly_detector",
+    "title": "Property Condition Anomaly Detector",
+    "domain": "social housing operations analytics",
+    "motif": "condition",
+    "notebook": "notebooks/1783_property_condition_anomaly_detector.ipynb",
+    "script": "scripts/1783_property_condition_anomaly_detector.py",
+    "expected_output_dir": "outputs/1783_property_condition_anomaly_detector"
+  },
+  {
+    "workflow_number": 1784,
+    "workflow_name": "community_services_demand_monitor",
+    "title": "Community Services Demand Monitor",
+    "domain": "social housing operations analytics",
+    "motif": "servicedemand",
+    "notebook": "notebooks/1784_community_services_demand_monitor.ipynb",
+    "script": "scripts/1784_community_services_demand_monitor.py",
+    "expected_output_dir": "outputs/1784_community_services_demand_monitor"
+  },
+  {
+    "workflow_number": 1785,
+    "workflow_name": "telecom_family_plan_churn_model",
+    "title": "Telecom Family Plan Churn Model",
+    "domain": "telecom customer analytics",
+    "motif": "familychurn",
+    "notebook": "notebooks/1785_telecom_family_plan_churn_model.ipynb",
+    "script": "scripts/1785_telecom_family_plan_churn_model.py",
+    "expected_output_dir": "outputs/1785_telecom_family_plan_churn_model"
+  },
+  {
+    "workflow_number": 1786,
+    "workflow_name": "network_outage_credit_forecaster",
+    "title": "Network Outage Credit Forecaster",
+    "domain": "telecom customer analytics",
+    "motif": "outagecredit",
+    "notebook": "notebooks/1786_network_outage_credit_forecaster.ipynb",
+    "script": "scripts/1786_network_outage_credit_forecaster.py",
+    "expected_output_dir": "outputs/1786_network_outage_credit_forecaster"
+  },
+  {
+    "workflow_number": 1787,
+    "workflow_name": "sim_swap_fraud_detector",
+    "title": "Sim Swap Fraud Detector",
+    "domain": "telecom customer analytics",
+    "motif": "simswap",
+    "notebook": "notebooks/1787_sim_swap_fraud_detector.ipynb",
+    "script": "scripts/1787_sim_swap_fraud_detector.py",
+    "expected_output_dir": "outputs/1787_sim_swap_fraud_detector"
+  },
+  {
+    "workflow_number": 1788,
+    "workflow_name": "prepaid_bundle_margin_scorecard",
+    "title": "Prepaid Bundle Margin Scorecard",
+    "domain": "telecom customer analytics",
+    "motif": "bundlemargin",
+    "notebook": "notebooks/1788_prepaid_bundle_margin_scorecard.ipynb",
+    "script": "scripts/1788_prepaid_bundle_margin_scorecard.py",
+    "expected_output_dir": "outputs/1788_prepaid_bundle_margin_scorecard"
+  },
+  {
+    "workflow_number": 1789,
+    "workflow_name": "call_center_deflection_optimizer",
+    "title": "Call Center Deflection Optimizer",
+    "domain": "telecom customer analytics",
+    "motif": "deflection",
+    "notebook": "notebooks/1789_call_center_deflection_optimizer.ipynb",
+    "script": "scripts/1789_call_center_deflection_optimizer.py",
+    "expected_output_dir": "outputs/1789_call_center_deflection_optimizer"
+  },
+  {
+    "workflow_number": 1790,
+    "workflow_name": "roaming_bill_shock_monitor",
+    "title": "Roaming Bill Shock Monitor",
+    "domain": "telecom customer analytics",
+    "motif": "billshock",
+    "notebook": "notebooks/1790_roaming_bill_shock_monitor.ipynb",
+    "script": "scripts/1790_roaming_bill_shock_monitor.py",
+    "expected_output_dir": "outputs/1790_roaming_bill_shock_monitor"
+  },
+  {
+    "workflow_number": 1791,
+    "workflow_name": "crane_safety_near_miss_detector",
+    "title": "Crane Safety Near Miss Detector",
+    "domain": "construction safety analytics",
+    "motif": "cranemiss",
+    "notebook": "notebooks/1791_crane_safety_near_miss_detector.ipynb",
+    "script": "scripts/1791_crane_safety_near_miss_detector.py",
+    "expected_output_dir": "outputs/1791_crane_safety_near_miss_detector"
+  },
+  {
+    "workflow_number": 1792,
+    "workflow_name": "site_weather_delay_forecaster",
+    "title": "Site Weather Delay Forecaster",
+    "domain": "construction safety analytics",
+    "motif": "sitedelay",
+    "notebook": "notebooks/1792_site_weather_delay_forecaster.ipynb",
+    "script": "scripts/1792_site_weather_delay_forecaster.py",
+    "expected_output_dir": "outputs/1792_site_weather_delay_forecaster"
+  },
+  {
+    "workflow_number": 1793,
+    "workflow_name": "permit_inspection_queue_optimizer",
+    "title": "Permit Inspection Queue Optimizer",
+    "domain": "construction safety analytics",
+    "motif": "permitqueue",
+    "notebook": "notebooks/1793_permit_inspection_queue_optimizer.ipynb",
+    "script": "scripts/1793_permit_inspection_queue_optimizer.py",
+    "expected_output_dir": "outputs/1793_permit_inspection_queue_optimizer"
+  },
+  {
+    "workflow_number": 1794,
+    "workflow_name": "subcontractor_safety_scorecard",
+    "title": "Subcontractor Safety Scorecard",
+    "domain": "construction safety analytics",
+    "motif": "subsafety",
+    "notebook": "notebooks/1794_subcontractor_safety_scorecard.ipynb",
+    "script": "scripts/1794_subcontractor_safety_scorecard.py",
+    "expected_output_dir": "outputs/1794_subcontractor_safety_scorecard"
+  },
+  {
+    "workflow_number": 1795,
+    "workflow_name": "ppe_compliance_exception_monitor",
+    "title": "Ppe Compliance Exception Monitor",
+    "domain": "construction safety analytics",
+    "motif": "ppe",
+    "notebook": "notebooks/1795_ppe_compliance_exception_monitor.ipynb",
+    "script": "scripts/1795_ppe_compliance_exception_monitor.py",
+    "expected_output_dir": "outputs/1795_ppe_compliance_exception_monitor"
+  },
+  {
+    "workflow_number": 1796,
+    "workflow_name": "concrete_pour_quality_risk_lab",
+    "title": "Concrete Pour Quality Risk Lab",
+    "domain": "construction safety analytics",
+    "motif": "pourquality",
+    "notebook": "notebooks/1796_concrete_pour_quality_risk_lab.ipynb",
+    "script": "scripts/1796_concrete_pour_quality_risk_lab.py",
+    "expected_output_dir": "outputs/1796_concrete_pour_quality_risk_lab"
+  }
+]

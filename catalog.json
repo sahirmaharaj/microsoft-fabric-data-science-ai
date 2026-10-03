@@ -1,0 +1,1082 @@
+[
+  {
+    "id": 117,
+    "category": "latent_models",
+    "workflow": "117_multiview_canonical_correlation",
+    "script": "scripts/latent_models/117_multiview_canonical_correlation.py",
+    "notebook": "notebooks/latent_models/117_multiview_canonical_correlation.ipynb",
+    "code_lines": 161,
+    "workflow_lines": 41,
+    "dependencies": [
+      "numpy>=1.26,<3",
+      "pandas>=2.1,<3",
+      "scipy>=1.11,<2",
+      "scikit-learn>=1.4,<2",
+      "matplotlib>=3.8,<4",
+      "joblib>=1.3,<2",
+      "threadpoolctl>=3.2,<4"
+    ]
+  },
+  {
+    "id": 118,
+    "category": "latent_models",
+    "workflow": "118_sparse_dictionary_signal_recovery",
+    "script": "scripts/latent_models/118_sparse_dictionary_signal_recovery.py",
+    "notebook": "notebooks/latent_models/118_sparse_dictionary_signal_recovery.ipynb",
+    "code_lines": 160,
+    "workflow_lines": 40,
+    "dependencies": [
+      "numpy>=1.26,<3",
+      "pandas>=2.1,<3",
+      "scipy>=1.11,<2",
+      "scikit-learn>=1.4,<2",
+      "matplotlib>=3.8,<4",
+      "joblib>=1.3,<2",
+      "threadpoolctl>=3.2,<4"
+    ]
+  },
+  {
+    "id": 119,
+    "category": "latent_models",
+    "workflow": "119_independent_component_source_separation",
+    "script": "scripts/latent_models/119_independent_component_source_separation.py",
+    "notebook": "notebooks/latent_models/119_independent_component_source_separation.ipynb",
+    "code_lines": 165,
+    "workflow_lines": 45,
+    "dependencies": [
+      "numpy>=1.26,<3",
+      "pandas>=2.1,<3",
+      "scipy>=1.11,<2",
+      "scikit-learn>=1.4,<2",
+      "matplotlib>=3.8,<4",
+      "joblib>=1.3,<2",
+      "threadpoolctl>=3.2,<4"
+    ]
+  },
+  {
+    "id": 120,
+    "category": "latent_models",
+    "workflow": "120_hyperspectral_nonnegative_unmixing",
+    "script": "scripts/latent_models/120_hyperspectral_nonnegative_unmixing.py",
+    "notebook": "notebooks/latent_models/120_hyperspectral_nonnegative_unmixing.ipynb",
+    "code_lines": 163,
+    "workflow_lines": 43,
+    "dependencies": [
+      "numpy>=1.26,<3",
+      "pandas>=2.1,<3",
+      "scipy>=1.11,<2",
+      "scikit-learn>=1.4,<2",
+      "matplotlib>=3.8,<4",
+      "joblib>=1.3,<2",
+      "threadpoolctl>=3.2,<4"
+    ]
+  },
+  {
+    "id": 121,
+    "category": "latent_models",
+    "workflow": "121_robust_pca_sparse_corruption_decomposition",
+    "script": "scripts/latent_models/121_robust_pca_sparse_corruption_decomposition.py",
+    "notebook": "notebooks/latent_models/121_robust_pca_sparse_corruption_decomposition.ipynb",
+    "code_lines": 169,
+    "workflow_lines": 49,
+    "dependencies": [
+      "numpy>=1.26,<3",
+      "pandas>=2.1,<3",
+      "scipy>=1.11,<2",
+      "scikit-learn>=1.4,<2",
+      "matplotlib>=3.8,<4",
+      "joblib>=1.3,<2",
+      "threadpoolctl>=3.2,<4"
+    ]
+  },
+  {
+    "id": 122,
+    "category": "latent_models",
+    "workflow": "122_probabilistic_factor_measurement_model",
+    "script": "scripts/latent_models/122_probabilistic_factor_measurement_model.py",
+    "notebook": "notebooks/latent_models/122_probabilistic_factor_measurement_model.ipynb",
+    "code_lines": 165,
+    "workflow_lines": 45,
+    "dependencies": [
+      "numpy>=1.26,<3",
+      "pandas>=2.1,<3",
+      "scipy>=1.11,<2",
+      "scikit-learn>=1.4,<2",
+      "matplotlib>=3.8,<4",
+      "joblib>=1.3,<2",
+      "threadpoolctl>=3.2,<4"
+    ]
+  },
+  {
+    "id": 123,
+    "category": "latent_models",
+    "workflow": "123_isomap_geodesic_manifold_recovery",
+    "script": "scripts/latent_models/123_isomap_geodesic_manifold_recovery.py",
+    "notebook": "notebooks/latent_models/123_isomap_geodesic_manifold_recovery.ipynb",
+    "code_lines": 164,
+    "workflow_lines": 44,
+    "dependencies": [
+      "numpy>=1.26,<3",
+      "pandas>=2.1,<3",
+      "scipy>=1.11,<2",
+      "scikit-learn>=1.4,<2",
+      "matplotlib>=3.8,<4",
+      "joblib>=1.3,<2",
+      "threadpoolctl>=3.2,<4"
+    ]
+  },
+  {
+    "id": 124,
+    "category": "distribution_tests",
+    "workflow": "124_kernel_two_sample_mmd",
+    "script": "scripts/distribution_tests/124_kernel_two_sample_mmd.py",
+    "notebook": "notebooks/distribution_tests/124_kernel_two_sample_mmd.ipynb",
+    "code_lines": 165,
+    "workflow_lines": 45,
+    "dependencies": [
+      "numpy>=1.26,<3",
+      "pandas>=2.1,<3",
+      "scipy>=1.11,<2",
+      "scikit-learn>=1.4,<2",
+      "matplotlib>=3.8,<4",
+      "joblib>=1.3,<2",
+      "threadpoolctl>=3.2,<4"
+    ]
+  },
+  {
+    "id": 125,
+    "category": "distribution_tests",
+    "workflow": "125_sinkhorn_optimal_transport_alignment",
+    "script": "scripts/distribution_tests/125_sinkhorn_optimal_transport_alignment.py",
+    "notebook": "notebooks/distribution_tests/125_sinkhorn_optimal_transport_alignment.ipynb",
+    "code_lines": 170,
+    "workflow_lines": 50,
+    "dependencies": [
+      "numpy>=1.26,<3",
+      "pandas>=2.1,<3",
+      "scipy>=1.11,<2",
+      "scikit-learn>=1.4,<2",
+      "matplotlib>=3.8,<4",
+      "joblib>=1.3,<2",
+      "threadpoolctl>=3.2,<4"
+    ]
+  },
+  {
+    "id": 126,
+    "category": "bayesian_computation",
+    "workflow": "126_approximate_bayesian_computation",
+    "script": "scripts/bayesian_computation/126_approximate_bayesian_computation.py",
+    "notebook": "notebooks/bayesian_computation/126_approximate_bayesian_computation.ipynb",
+    "code_lines": 170,
+    "workflow_lines": 50,
+    "dependencies": [
+      "numpy>=1.26,<3",
+      "pandas>=2.1,<3",
+      "scipy>=1.11,<2",
+      "scikit-learn>=1.4,<2",
+      "matplotlib>=3.8,<4",
+      "joblib>=1.3,<2",
+      "threadpoolctl>=3.2,<4"
+    ]
+  },
+  {
+    "id": 127,
+    "category": "bayesian_computation",
+    "workflow": "127_metropolis_hastings_multi_chain_diagnostics",
+    "script": "scripts/bayesian_computation/127_metropolis_hastings_multi_chain_diagnostics.py",
+    "notebook": "notebooks/bayesian_computation/127_metropolis_hastings_multi_chain_diagnostics.ipynb",
+    "code_lines": 171,
+    "workflow_lines": 51,
+    "dependencies": [
+      "numpy>=1.26,<3",
+      "pandas>=2.1,<3",
+      "scipy>=1.11,<2",
+      "scikit-learn>=1.4,<2",
+      "matplotlib>=3.8,<4",
+      "joblib>=1.3,<2",
+      "threadpoolctl>=3.2,<4"
+    ]
+  },
+  {
+    "id": 128,
+    "category": "bayesian_computation",
+    "workflow": "128_hamiltonian_monte_carlo_logistic_posterior",
+    "script": "scripts/bayesian_computation/128_hamiltonian_monte_carlo_logistic_posterior.py",
+    "notebook": "notebooks/bayesian_computation/128_hamiltonian_monte_carlo_logistic_posterior.ipynb",
+    "code_lines": 179,
+    "workflow_lines": 59,
+    "dependencies": [
+      "numpy>=1.26,<3",
+      "pandas>=2.1,<3",
+      "scipy>=1.11,<2",
+      "scikit-learn>=1.4,<2",
+      "matplotlib>=3.8,<4",
+      "joblib>=1.3,<2",
+      "threadpoolctl>=3.2,<4"
+    ]
+  },
+  {
+    "id": 129,
+    "category": "bayesian_computation",
+    "workflow": "129_variational_mixture_component_pruning",
+    "script": "scripts/bayesian_computation/129_variational_mixture_component_pruning.py",
+    "notebook": "notebooks/bayesian_computation/129_variational_mixture_component_pruning.ipynb",
+    "code_lines": 151,
+    "workflow_lines": 33,
+    "dependencies": [
+      "numpy>=1.26,<3",
+      "pandas>=2.1,<3",
+      "scipy>=1.11,<2",
+      "scikit-learn>=1.4,<2",
+      "matplotlib>=3.8,<4",
+      "joblib>=1.3,<2",
+      "threadpoolctl>=3.2,<4"
+    ]
+  },
+  {
+    "id": 130,
+    "category": "bayesian_computation",
+    "workflow": "130_particle_filter_nonlinear_tracking",
+    "script": "scripts/bayesian_computation/130_particle_filter_nonlinear_tracking.py",
+    "notebook": "notebooks/bayesian_computation/130_particle_filter_nonlinear_tracking.ipynb",
+    "code_lines": 175,
+    "workflow_lines": 55,
+    "dependencies": [
+      "numpy>=1.26,<3",
+      "pandas>=2.1,<3",
+      "scipy>=1.11,<2",
+      "scikit-learn>=1.4,<2",
+      "matplotlib>=3.8,<4",
+      "joblib>=1.3,<2",
+      "threadpoolctl>=3.2,<4"
+    ]
+  },
+  {
+    "id": 131,
+    "category": "bayesian_computation",
+    "workflow": "131_ensemble_kalman_inverse_problem",
+    "script": "scripts/bayesian_computation/131_ensemble_kalman_inverse_problem.py",
+    "notebook": "notebooks/bayesian_computation/131_ensemble_kalman_inverse_problem.ipynb",
+    "code_lines": 160,
+    "workflow_lines": 40,
+    "dependencies": [
+      "numpy>=1.26,<3",
+      "pandas>=2.1,<3",
+      "scipy>=1.11,<2",
+      "scikit-learn>=1.4,<2",
+      "matplotlib>=3.8,<4",
+      "joblib>=1.3,<2",
+      "threadpoolctl>=3.2,<4"
+    ]
+  },
+  {
+    "id": 132,
+    "category": "bayesian_computation",
+    "workflow": "132_sequential_monte_carlo_tempering",
+    "script": "scripts/bayesian_computation/132_sequential_monte_carlo_tempering.py",
+    "notebook": "notebooks/bayesian_computation/132_sequential_monte_carlo_tempering.ipynb",
+    "code_lines": 176,
+    "workflow_lines": 56,
+    "dependencies": [
+      "numpy>=1.26,<3",
+      "pandas>=2.1,<3",
+      "scipy>=1.11,<2",
+      "scikit-learn>=1.4,<2",
+      "matplotlib>=3.8,<4",
+      "joblib>=1.3,<2",
+      "threadpoolctl>=3.2,<4"
+    ]
+  },
+  {
+    "id": 133,
+    "category": "bayesian_computation",
+    "workflow": "133_bayesian_online_changepoint_detection",
+    "script": "scripts/bayesian_computation/133_bayesian_online_changepoint_detection.py",
+    "notebook": "notebooks/bayesian_computation/133_bayesian_online_changepoint_detection.ipynb",
+    "code_lines": 168,
+    "workflow_lines": 48,
+    "dependencies": [
+      "numpy>=1.26,<3",
+      "pandas>=2.1,<3",
+      "scipy>=1.11,<2",
+      "scikit-learn>=1.4,<2",
+      "matplotlib>=3.8,<4",
+      "joblib>=1.3,<2",
+      "threadpoolctl>=3.2,<4"
+    ]
+  },
+  {
+    "id": 134,
+    "category": "structured_statistics",
+    "workflow": "134_sparse_gaussian_precision_network",
+    "script": "scripts/structured_statistics/134_sparse_gaussian_precision_network.py",
+    "notebook": "notebooks/structured_statistics/134_sparse_gaussian_precision_network.ipynb",
+    "code_lines": 162,
+    "workflow_lines": 42,
+    "dependencies": [
+      "numpy>=1.26,<3",
+      "pandas>=2.1,<3",
+      "scipy>=1.11,<2",
+      "scikit-learn>=1.4,<2",
+      "matplotlib>=3.8,<4",
+      "joblib>=1.3,<2",
+      "threadpoolctl>=3.2,<4"
+    ]
+  },
+  {
+    "id": 135,
+    "category": "structured_statistics",
+    "workflow": "135_copula_joint_tail_dependence",
+    "script": "scripts/structured_statistics/135_copula_joint_tail_dependence.py",
+    "notebook": "notebooks/structured_statistics/135_copula_joint_tail_dependence.ipynb",
+    "code_lines": 157,
+    "workflow_lines": 37,
+    "dependencies": [
+      "numpy>=1.26,<3",
+      "pandas>=2.1,<3",
+      "scipy>=1.11,<2",
+      "scikit-learn>=1.4,<2",
+      "matplotlib>=3.8,<4",
+      "joblib>=1.3,<2",
+      "threadpoolctl>=3.2,<4"
+    ]
+  },
+  {
+    "id": 136,
+    "category": "structured_statistics",
+    "workflow": "136_additive_spline_response_decomposition",
+    "script": "scripts/structured_statistics/136_additive_spline_response_decomposition.py",
+    "notebook": "notebooks/structured_statistics/136_additive_spline_response_decomposition.ipynb",
+    "code_lines": 167,
+    "workflow_lines": 47,
+    "dependencies": [
+      "numpy>=1.26,<3",
+      "pandas>=2.1,<3",
+      "scipy>=1.11,<2",
+      "scikit-learn>=1.4,<2",
+      "matplotlib>=3.8,<4",
+      "joblib>=1.3,<2",
+      "threadpoolctl>=3.2,<4"
+    ]
+  },
+  {
+    "id": 137,
+    "category": "structured_statistics",
+    "workflow": "137_functional_data_basis_regression",
+    "script": "scripts/structured_statistics/137_functional_data_basis_regression.py",
+    "notebook": "notebooks/structured_statistics/137_functional_data_basis_regression.ipynb",
+    "code_lines": 166,
+    "workflow_lines": 46,
+    "dependencies": [
+      "numpy>=1.26,<3",
+      "pandas>=2.1,<3",
+      "scipy>=1.11,<2",
+      "scikit-learn>=1.4,<2",
+      "matplotlib>=3.8,<4",
+      "joblib>=1.3,<2",
+      "threadpoolctl>=3.2,<4"
+    ]
+  },
+  {
+    "id": 138,
+    "category": "structured_statistics",
+    "workflow": "138_compositional_logratio_classification",
+    "script": "scripts/structured_statistics/138_compositional_logratio_classification.py",
+    "notebook": "notebooks/structured_statistics/138_compositional_logratio_classification.ipynb",
+    "code_lines": 164,
+    "workflow_lines": 44,
+    "dependencies": [
+      "numpy>=1.26,<3",
+      "pandas>=2.1,<3",
+      "scipy>=1.11,<2",
+      "scikit-learn>=1.4,<2",
+      "matplotlib>=3.8,<4",
+      "joblib>=1.3,<2",
+      "threadpoolctl>=3.2,<4"
+    ]
+  },
+  {
+    "id": 139,
+    "category": "structured_statistics",
+    "workflow": "139_circular_direction_statistics",
+    "script": "scripts/structured_statistics/139_circular_direction_statistics.py",
+    "notebook": "notebooks/structured_statistics/139_circular_direction_statistics.ipynb",
+    "code_lines": 160,
+    "workflow_lines": 40,
+    "dependencies": [
+      "numpy>=1.26,<3",
+      "pandas>=2.1,<3",
+      "scipy>=1.11,<2",
+      "scikit-learn>=1.4,<2",
+      "matplotlib>=3.8,<4",
+      "joblib>=1.3,<2",
+      "threadpoolctl>=3.2,<4"
+    ]
+  },
+  {
+    "id": 140,
+    "category": "spatial_statistics",
+    "workflow": "140_variogram_ordinary_kriging",
+    "script": "scripts/spatial_statistics/140_variogram_ordinary_kriging.py",
+    "notebook": "notebooks/spatial_statistics/140_variogram_ordinary_kriging.ipynb",
+    "code_lines": 173,
+    "workflow_lines": 53,
+    "dependencies": [
+      "numpy>=1.26,<3",
+      "pandas>=2.1,<3",
+      "scipy>=1.11,<2",
+      "scikit-learn>=1.4,<2",
+      "matplotlib>=3.8,<4",
+      "joblib>=1.3,<2",
+      "threadpoolctl>=3.2,<4"
+    ]
+  },
+  {
+    "id": 141,
+    "category": "spatial_statistics",
+    "workflow": "141_spatial_autocorrelation_permutation_analysis",
+    "script": "scripts/spatial_statistics/141_spatial_autocorrelation_permutation_analysis.py",
+    "notebook": "notebooks/spatial_statistics/141_spatial_autocorrelation_permutation_analysis.ipynb",
+    "code_lines": 167,
+    "workflow_lines": 47,
+    "dependencies": [
+      "numpy>=1.26,<3",
+      "pandas>=2.1,<3",
+      "scipy>=1.11,<2",
+      "scikit-learn>=1.4,<2",
+      "matplotlib>=3.8,<4",
+      "joblib>=1.3,<2",
+      "threadpoolctl>=3.2,<4"
+    ]
+  },
+  {
+    "id": 142,
+    "category": "process_analytics",
+    "workflow": "142_event_log_process_conformance",
+    "script": "scripts/process_analytics/142_event_log_process_conformance.py",
+    "notebook": "notebooks/process_analytics/142_event_log_process_conformance.ipynb",
+    "code_lines": 171,
+    "workflow_lines": 51,
+    "dependencies": [
+      "numpy>=1.26,<3",
+      "pandas>=2.1,<3",
+      "scipy>=1.11,<2",
+      "scikit-learn>=1.4,<2",
+      "matplotlib>=3.8,<4",
+      "joblib>=1.3,<2",
+      "threadpoolctl>=3.2,<4"
+    ]
+  },
+  {
+    "id": 143,
+    "category": "pattern_mining",
+    "workflow": "143_apriori_market_basket_association_rules",
+    "script": "scripts/pattern_mining/143_apriori_market_basket_association_rules.py",
+    "notebook": "notebooks/pattern_mining/143_apriori_market_basket_association_rules.ipynb",
+    "code_lines": 172,
+    "workflow_lines": 52,
+    "dependencies": [
+      "numpy>=1.26,<3",
+      "pandas>=2.1,<3",
+      "scipy>=1.11,<2",
+      "scikit-learn>=1.4,<2",
+      "matplotlib>=3.8,<4",
+      "joblib>=1.3,<2",
+      "threadpoolctl>=3.2,<4"
+    ]
+  },
+  {
+    "id": 144,
+    "category": "pattern_mining",
+    "workflow": "144_projected_frequent_sequence_mining",
+    "script": "scripts/pattern_mining/144_projected_frequent_sequence_mining.py",
+    "notebook": "notebooks/pattern_mining/144_projected_frequent_sequence_mining.ipynb",
+    "code_lines": 181,
+    "workflow_lines": 61,
+    "dependencies": [
+      "numpy>=1.26,<3",
+      "pandas>=2.1,<3",
+      "scipy>=1.11,<2",
+      "scikit-learn>=1.4,<2",
+      "matplotlib>=3.8,<4",
+      "joblib>=1.3,<2",
+      "threadpoolctl>=3.2,<4"
+    ]
+  },
+  {
+    "id": 145,
+    "category": "graph_science",
+    "workflow": "145_directed_triad_motif_randomization",
+    "script": "scripts/graph_science/145_directed_triad_motif_randomization.py",
+    "notebook": "notebooks/graph_science/145_directed_triad_motif_randomization.ipynb",
+    "code_lines": 183,
+    "workflow_lines": 63,
+    "dependencies": [
+      "numpy>=1.26,<3",
+      "pandas>=2.1,<3",
+      "scipy>=1.11,<2",
+      "scikit-learn>=1.4,<2",
+      "matplotlib>=3.8,<4",
+      "joblib>=1.3,<2",
+      "threadpoolctl>=3.2,<4"
+    ]
+  },
+  {
+    "id": 146,
+    "category": "graph_science",
+    "workflow": "146_hypergraph_team_structure_diffusion",
+    "script": "scripts/graph_science/146_hypergraph_team_structure_diffusion.py",
+    "notebook": "notebooks/graph_science/146_hypergraph_team_structure_diffusion.ipynb",
+    "code_lines": 170,
+    "workflow_lines": 50,
+    "dependencies": [
+      "numpy>=1.26,<3",
+      "pandas>=2.1,<3",
+      "scipy>=1.11,<2",
+      "scikit-learn>=1.4,<2",
+      "matplotlib>=3.8,<4",
+      "joblib>=1.3,<2",
+      "threadpoolctl>=3.2,<4"
+    ]
+  },
+  {
+    "id": 147,
+    "category": "graph_science",
+    "workflow": "147_independent_cascade_influence_selection",
+    "script": "scripts/graph_science/147_independent_cascade_influence_selection.py",
+    "notebook": "notebooks/graph_science/147_independent_cascade_influence_selection.ipynb",
+    "code_lines": 170,
+    "workflow_lines": 50,
+    "dependencies": [
+      "numpy>=1.26,<3",
+      "pandas>=2.1,<3",
+      "scipy>=1.11,<2",
+      "scikit-learn>=1.4,<2",
+      "matplotlib>=3.8,<4",
+      "joblib>=1.3,<2",
+      "threadpoolctl>=3.2,<4"
+    ]
+  },
+  {
+    "id": 148,
+    "category": "graph_science",
+    "workflow": "148_personalized_pagerank_topic_retrieval",
+    "script": "scripts/graph_science/148_personalized_pagerank_topic_retrieval.py",
+    "notebook": "notebooks/graph_science/148_personalized_pagerank_topic_retrieval.ipynb",
+    "code_lines": 180,
+    "workflow_lines": 60,
+    "dependencies": [
+      "numpy>=1.26,<3",
+      "pandas>=2.1,<3",
+      "scipy>=1.11,<2",
+      "scikit-learn>=1.4,<2",
+      "matplotlib>=3.8,<4",
+      "joblib>=1.3,<2",
+      "threadpoolctl>=3.2,<4"
+    ]
+  },
+  {
+    "id": 149,
+    "category": "graph_science",
+    "workflow": "149_chebyshev_graph_signal_denoising",
+    "script": "scripts/graph_science/149_chebyshev_graph_signal_denoising.py",
+    "notebook": "notebooks/graph_science/149_chebyshev_graph_signal_denoising.ipynb",
+    "code_lines": 175,
+    "workflow_lines": 55,
+    "dependencies": [
+      "numpy>=1.26,<3",
+      "pandas>=2.1,<3",
+      "scipy>=1.11,<2",
+      "scikit-learn>=1.4,<2",
+      "matplotlib>=3.8,<4",
+      "joblib>=1.3,<2",
+      "threadpoolctl>=3.2,<4"
+    ]
+  },
+  {
+    "id": 150,
+    "category": "allocation_algorithms",
+    "workflow": "150_capacitated_hungarian_task_assignment",
+    "script": "scripts/allocation_algorithms/150_capacitated_hungarian_task_assignment.py",
+    "notebook": "notebooks/allocation_algorithms/150_capacitated_hungarian_task_assignment.ipynb",
+    "code_lines": 171,
+    "workflow_lines": 51,
+    "dependencies": [
+      "numpy>=1.26,<3",
+      "pandas>=2.1,<3",
+      "scipy>=1.11,<2",
+      "scikit-learn>=1.4,<2",
+      "matplotlib>=3.8,<4",
+      "joblib>=1.3,<2",
+      "threadpoolctl>=3.2,<4"
+    ]
+  },
+  {
+    "id": 151,
+    "category": "allocation_algorithms",
+    "workflow": "151_capacity_constrained_stable_matching",
+    "script": "scripts/allocation_algorithms/151_capacity_constrained_stable_matching.py",
+    "notebook": "notebooks/allocation_algorithms/151_capacity_constrained_stable_matching.ipynb",
+    "code_lines": 173,
+    "workflow_lines": 53,
+    "dependencies": [
+      "numpy>=1.26,<3",
+      "pandas>=2.1,<3",
+      "scipy>=1.11,<2",
+      "scikit-learn>=1.4,<2",
+      "matplotlib>=3.8,<4",
+      "joblib>=1.3,<2",
+      "threadpoolctl>=3.2,<4"
+    ]
+  },
+  {
+    "id": 152,
+    "category": "allocation_algorithms",
+    "workflow": "152_uniform_price_double_auction",
+    "script": "scripts/allocation_algorithms/152_uniform_price_double_auction.py",
+    "notebook": "notebooks/allocation_algorithms/152_uniform_price_double_auction.ipynb",
+    "code_lines": 175,
+    "workflow_lines": 55,
+    "dependencies": [
+      "numpy>=1.26,<3",
+      "pandas>=2.1,<3",
+      "scipy>=1.11,<2",
+      "scikit-learn>=1.4,<2",
+      "matplotlib>=3.8,<4",
+      "joblib>=1.3,<2",
+      "threadpoolctl>=3.2,<4"
+    ]
+  },
+  {
+    "id": 153,
+    "category": "evolutionary_optimization",
+    "workflow": "153_pareto_multiobjective_evolution",
+    "script": "scripts/evolutionary_optimization/153_pareto_multiobjective_evolution.py",
+    "notebook": "notebooks/evolutionary_optimization/153_pareto_multiobjective_evolution.ipynb",
+    "code_lines": 187,
+    "workflow_lines": 67,
+    "dependencies": [
+      "numpy>=1.26,<3",
+      "pandas>=2.1,<3",
+      "scipy>=1.11,<2",
+      "scikit-learn>=1.4,<2",
+      "matplotlib>=3.8,<4",
+      "joblib>=1.3,<2",
+      "threadpoolctl>=3.2,<4"
+    ]
+  },
+  {
+    "id": 154,
+    "category": "evolutionary_optimization",
+    "workflow": "154_simulated_annealing_jobshop_scheduling",
+    "script": "scripts/evolutionary_optimization/154_simulated_annealing_jobshop_scheduling.py",
+    "notebook": "notebooks/evolutionary_optimization/154_simulated_annealing_jobshop_scheduling.ipynb",
+    "code_lines": 179,
+    "workflow_lines": 59,
+    "dependencies": [
+      "numpy>=1.26,<3",
+      "pandas>=2.1,<3",
+      "scipy>=1.11,<2",
+      "scikit-learn>=1.4,<2",
+      "matplotlib>=3.8,<4",
+      "joblib>=1.3,<2",
+      "threadpoolctl>=3.2,<4"
+    ]
+  },
+  {
+    "id": 155,
+    "category": "stochastic_optimization",
+    "workflow": "155_risk_averse_newsvendor_cvar",
+    "script": "scripts/stochastic_optimization/155_risk_averse_newsvendor_cvar.py",
+    "notebook": "notebooks/stochastic_optimization/155_risk_averse_newsvendor_cvar.ipynb",
+    "code_lines": 166,
+    "workflow_lines": 46,
+    "dependencies": [
+      "numpy>=1.26,<3",
+      "pandas>=2.1,<3",
+      "scipy>=1.11,<2",
+      "scikit-learn>=1.4,<2",
+      "matplotlib>=3.8,<4",
+      "joblib>=1.3,<2",
+      "threadpoolctl>=3.2,<4"
+    ]
+  },
+  {
+    "id": 156,
+    "category": "stochastic_optimization",
+    "workflow": "156_mean_variance_knapsack_dynamic_programming",
+    "script": "scripts/stochastic_optimization/156_mean_variance_knapsack_dynamic_programming.py",
+    "notebook": "notebooks/stochastic_optimization/156_mean_variance_knapsack_dynamic_programming.ipynb",
+    "code_lines": 169,
+    "workflow_lines": 49,
+    "dependencies": [
+      "numpy>=1.26,<3",
+      "pandas>=2.1,<3",
+      "scipy>=1.11,<2",
+      "scikit-learn>=1.4,<2",
+      "matplotlib>=3.8,<4",
+      "joblib>=1.3,<2",
+      "threadpoolctl>=3.2,<4"
+    ]
+  },
+  {
+    "id": 157,
+    "category": "decision_processes",
+    "workflow": "157_maintenance_mdp_policy_iteration",
+    "script": "scripts/decision_processes/157_maintenance_mdp_policy_iteration.py",
+    "notebook": "notebooks/decision_processes/157_maintenance_mdp_policy_iteration.ipynb",
+    "code_lines": 178,
+    "workflow_lines": 58,
+    "dependencies": [
+      "numpy>=1.26,<3",
+      "pandas>=2.1,<3",
+      "scipy>=1.11,<2",
+      "scikit-learn>=1.4,<2",
+      "matplotlib>=3.8,<4",
+      "joblib>=1.3,<2",
+      "threadpoolctl>=3.2,<4"
+    ]
+  },
+  {
+    "id": 158,
+    "category": "sequence_models",
+    "workflow": "158_hidden_semi_markov_duration_decoding",
+    "script": "scripts/sequence_models/158_hidden_semi_markov_duration_decoding.py",
+    "notebook": "notebooks/sequence_models/158_hidden_semi_markov_duration_decoding.ipynb",
+    "code_lines": 183,
+    "workflow_lines": 63,
+    "dependencies": [
+      "numpy>=1.26,<3",
+      "pandas>=2.1,<3",
+      "scipy>=1.11,<2",
+      "scikit-learn>=1.4,<2",
+      "matplotlib>=3.8,<4",
+      "joblib>=1.3,<2",
+      "threadpoolctl>=3.2,<4"
+    ]
+  },
+  {
+    "id": 159,
+    "category": "data_resilience",
+    "workflow": "159_hamming_secded_error_correction",
+    "script": "scripts/data_resilience/159_hamming_secded_error_correction.py",
+    "notebook": "notebooks/data_resilience/159_hamming_secded_error_correction.ipynb",
+    "code_lines": 188,
+    "workflow_lines": 68,
+    "dependencies": [
+      "numpy>=1.26,<3",
+      "pandas>=2.1,<3",
+      "scipy>=1.11,<2",
+      "scikit-learn>=1.4,<2",
+      "matplotlib>=3.8,<4",
+      "joblib>=1.3,<2",
+      "threadpoolctl>=3.2,<4"
+    ]
+  },
+  {
+    "id": 160,
+    "category": "streaming_algorithms",
+    "workflow": "160_greenwald_khanna_quantile_summary",
+    "script": "scripts/streaming_algorithms/160_greenwald_khanna_quantile_summary.py",
+    "notebook": "notebooks/streaming_algorithms/160_greenwald_khanna_quantile_summary.ipynb",
+    "code_lines": 190,
+    "workflow_lines": 70,
+    "dependencies": [
+      "numpy>=1.26,<3",
+      "pandas>=2.1,<3",
+      "scipy>=1.11,<2",
+      "scikit-learn>=1.4,<2",
+      "matplotlib>=3.8,<4",
+      "joblib>=1.3,<2",
+      "threadpoolctl>=3.2,<4"
+    ]
+  },
+  {
+    "id": 161,
+    "category": "privacy_engineering",
+    "workflow": "161_private_histogram_simplex_projection",
+    "script": "scripts/privacy_engineering/161_private_histogram_simplex_projection.py",
+    "notebook": "notebooks/privacy_engineering/161_private_histogram_simplex_projection.ipynb",
+    "code_lines": 167,
+    "workflow_lines": 47,
+    "dependencies": [
+      "numpy>=1.26,<3",
+      "pandas>=2.1,<3",
+      "scipy>=1.11,<2",
+      "scikit-learn>=1.4,<2",
+      "matplotlib>=3.8,<4",
+      "joblib>=1.3,<2",
+      "threadpoolctl>=3.2,<4"
+    ]
+  },
+  {
+    "id": 162,
+    "category": "distributed_learning",
+    "workflow": "162_federated_averaging_non_iid_clients",
+    "script": "scripts/distributed_learning/162_federated_averaging_non_iid_clients.py",
+    "notebook": "notebooks/distributed_learning/162_federated_averaging_non_iid_clients.ipynb",
+    "code_lines": 177,
+    "workflow_lines": 57,
+    "dependencies": [
+      "numpy>=1.26,<3",
+      "pandas>=2.1,<3",
+      "scipy>=1.11,<2",
+      "scikit-learn>=1.4,<2",
+      "matplotlib>=3.8,<4",
+      "joblib>=1.3,<2",
+      "threadpoolctl>=3.2,<4"
+    ]
+  },
+  {
+    "id": 163,
+    "category": "uncertainty_quantification",
+    "workflow": "163_class_conditional_conformal_prediction_sets",
+    "script": "scripts/uncertainty_quantification/163_class_conditional_conformal_prediction_sets.py",
+    "notebook": "notebooks/uncertainty_quantification/163_class_conditional_conformal_prediction_sets.ipynb",
+    "code_lines": 166,
+    "workflow_lines": 46,
+    "dependencies": [
+      "numpy>=1.26,<3",
+      "pandas>=2.1,<3",
+      "scipy>=1.11,<2",
+      "scikit-learn>=1.4,<2",
+      "matplotlib>=3.8,<4",
+      "joblib>=1.3,<2",
+      "threadpoolctl>=3.2,<4"
+    ]
+  },
+  {
+    "id": 164,
+    "category": "model_auditing",
+    "workflow": "164_influence_function_training_data_audit",
+    "script": "scripts/model_auditing/164_influence_function_training_data_audit.py",
+    "notebook": "notebooks/model_auditing/164_influence_function_training_data_audit.ipynb",
+    "code_lines": 177,
+    "workflow_lines": 57,
+    "dependencies": [
+      "numpy>=1.26,<3",
+      "pandas>=2.1,<3",
+      "scipy>=1.11,<2",
+      "scikit-learn>=1.4,<2",
+      "matplotlib>=3.8,<4",
+      "joblib>=1.3,<2",
+      "threadpoolctl>=3.2,<4"
+    ]
+  },
+  {
+    "id": 165,
+    "category": "model_auditing",
+    "workflow": "165_projected_gradient_image_robustness",
+    "script": "scripts/model_auditing/165_projected_gradient_image_robustness.py",
+    "notebook": "notebooks/model_auditing/165_projected_gradient_image_robustness.ipynb",
+    "code_lines": 172,
+    "workflow_lines": 52,
+    "dependencies": [
+      "numpy>=1.26,<3",
+      "pandas>=2.1,<3",
+      "scipy>=1.11,<2",
+      "scikit-learn>=1.4,<2",
+      "matplotlib>=3.8,<4",
+      "joblib>=1.3,<2",
+      "threadpoolctl>=3.2,<4"
+    ]
+  },
+  {
+    "id": 166,
+    "category": "generative_models",
+    "workflow": "166_random_feature_score_matching_diffusion",
+    "script": "scripts/generative_models/166_random_feature_score_matching_diffusion.py",
+    "notebook": "notebooks/generative_models/166_random_feature_score_matching_diffusion.ipynb",
+    "code_lines": 173,
+    "workflow_lines": 53,
+    "dependencies": [
+      "numpy>=1.26,<3",
+      "pandas>=2.1,<3",
+      "scipy>=1.11,<2",
+      "scikit-learn>=1.4,<2",
+      "matplotlib>=3.8,<4",
+      "joblib>=1.3,<2",
+      "threadpoolctl>=3.2,<4"
+    ]
+  },
+  {
+    "id": 167,
+    "category": "tensor_methods",
+    "workflow": "167_masked_tensor_cp_factorization",
+    "script": "scripts/tensor_methods/167_masked_tensor_cp_factorization.py",
+    "notebook": "notebooks/tensor_methods/167_masked_tensor_cp_factorization.ipynb",
+    "code_lines": 168,
+    "workflow_lines": 48,
+    "dependencies": [
+      "numpy>=1.26,<3",
+      "pandas>=2.1,<3",
+      "scipy>=1.11,<2",
+      "scikit-learn>=1.4,<2",
+      "matplotlib>=3.8,<4",
+      "joblib>=1.3,<2",
+      "threadpoolctl>=3.2,<4"
+    ]
+  },
+  {
+    "id": 168,
+    "category": "policy_evaluation",
+    "workflow": "168_cross_fitted_off_policy_bandit_evaluation",
+    "script": "scripts/policy_evaluation/168_cross_fitted_off_policy_bandit_evaluation.py",
+    "notebook": "notebooks/policy_evaluation/168_cross_fitted_off_policy_bandit_evaluation.ipynb",
+    "code_lines": 169,
+    "workflow_lines": 49,
+    "dependencies": [
+      "numpy>=1.26,<3",
+      "pandas>=2.1,<3",
+      "scipy>=1.11,<2",
+      "scikit-learn>=1.4,<2",
+      "matplotlib>=3.8,<4",
+      "joblib>=1.3,<2",
+      "threadpoolctl>=3.2,<4"
+    ]
+  },
+  {
+    "id": 169,
+    "category": "language_algorithms",
+    "workflow": "169_probabilistic_cyk_inside_outside_parsing",
+    "script": "scripts/language_algorithms/169_probabilistic_cyk_inside_outside_parsing.py",
+    "notebook": "notebooks/language_algorithms/169_probabilistic_cyk_inside_outside_parsing.ipynb",
+    "code_lines": 182,
+    "workflow_lines": 62,
+    "dependencies": [
+      "numpy>=1.26,<3",
+      "pandas>=2.1,<3",
+      "scipy>=1.11,<2",
+      "scikit-learn>=1.4,<2",
+      "matplotlib>=3.8,<4",
+      "joblib>=1.3,<2",
+      "threadpoolctl>=3.2,<4"
+    ]
+  },
+  {
+    "id": 170,
+    "category": "signal_processing",
+    "workflow": "170_haar_wavelet_threshold_denoising",
+    "script": "scripts/signal_processing/170_haar_wavelet_threshold_denoising.py",
+    "notebook": "notebooks/signal_processing/170_haar_wavelet_threshold_denoising.ipynb",
+    "code_lines": 172,
+    "workflow_lines": 52,
+    "dependencies": [
+      "numpy>=1.26,<3",
+      "pandas>=2.1,<3",
+      "scipy>=1.11,<2",
+      "scikit-learn>=1.4,<2",
+      "matplotlib>=3.8,<4",
+      "joblib>=1.3,<2",
+      "threadpoolctl>=3.2,<4"
+    ]
+  },
+  {
+    "id": 171,
+    "category": "computer_vision",
+    "workflow": "171_multiresolution_laplacian_image_blending",
+    "script": "scripts/computer_vision/171_multiresolution_laplacian_image_blending.py",
+    "notebook": "notebooks/computer_vision/171_multiresolution_laplacian_image_blending.ipynb",
+    "code_lines": 177,
+    "workflow_lines": 57,
+    "dependencies": [
+      "numpy>=1.26,<3",
+      "pandas>=2.1,<3",
+      "scipy>=1.11,<2",
+      "scikit-learn>=1.4,<2",
+      "matplotlib>=3.8,<4",
+      "joblib>=1.3,<2",
+      "threadpoolctl>=3.2,<4"
+    ]
+  },
+  {
+    "id": 172,
+    "category": "computer_vision",
+    "workflow": "172_hough_transform_line_detection",
+    "script": "scripts/computer_vision/172_hough_transform_line_detection.py",
+    "notebook": "notebooks/computer_vision/172_hough_transform_line_detection.ipynb",
+    "code_lines": 180,
+    "workflow_lines": 60,
+    "dependencies": [
+      "numpy>=1.26,<3",
+      "pandas>=2.1,<3",
+      "scipy>=1.11,<2",
+      "scikit-learn>=1.4,<2",
+      "matplotlib>=3.8,<4",
+      "joblib>=1.3,<2",
+      "threadpoolctl>=3.2,<4"
+    ]
+  },
+  {
+    "id": 173,
+    "category": "computer_vision",
+    "workflow": "173_dense_lucas_kanade_optical_flow",
+    "script": "scripts/computer_vision/173_dense_lucas_kanade_optical_flow.py",
+    "notebook": "notebooks/computer_vision/173_dense_lucas_kanade_optical_flow.ipynb",
+    "code_lines": 172,
+    "workflow_lines": 52,
+    "dependencies": [
+      "numpy>=1.26,<3",
+      "pandas>=2.1,<3",
+      "scipy>=1.11,<2",
+      "scikit-learn>=1.4,<2",
+      "matplotlib>=3.8,<4",
+      "joblib>=1.3,<2",
+      "threadpoolctl>=3.2,<4"
+    ]
+  },
+  {
+    "id": 174,
+    "category": "geometry_processing",
+    "workflow": "174_trimmed_icp_point_cloud_registration",
+    "script": "scripts/geometry_processing/174_trimmed_icp_point_cloud_registration.py",
+    "notebook": "notebooks/geometry_processing/174_trimmed_icp_point_cloud_registration.ipynb",
+    "code_lines": 172,
+    "workflow_lines": 52,
+    "dependencies": [
+      "numpy>=1.26,<3",
+      "pandas>=2.1,<3",
+      "scipy>=1.11,<2",
+      "scikit-learn>=1.4,<2",
+      "matplotlib>=3.8,<4",
+      "joblib>=1.3,<2",
+      "threadpoolctl>=3.2,<4"
+    ]
+  },
+  {
+    "id": 175,
+    "category": "geometry_processing",
+    "workflow": "175_poisson_disk_blue_noise_sampling",
+    "script": "scripts/geometry_processing/175_poisson_disk_blue_noise_sampling.py",
+    "notebook": "notebooks/geometry_processing/175_poisson_disk_blue_noise_sampling.ipynb",
+    "code_lines": 182,
+    "workflow_lines": 62,
+    "dependencies": [
+      "numpy>=1.26,<3",
+      "pandas>=2.1,<3",
+      "scipy>=1.11,<2",
+      "scikit-learn>=1.4,<2",
+      "matplotlib>=3.8,<4",
+      "joblib>=1.3,<2",
+      "threadpoolctl>=3.2,<4"
+    ]
+  },
+  {
+    "id": 176,
+    "category": "geometry_processing",
+    "workflow": "176_marching_squares_implicit_contours",
+    "script": "scripts/geometry_processing/176_marching_squares_implicit_contours.py",
+    "notebook": "notebooks/geometry_processing/176_marching_squares_implicit_contours.ipynb",
+    "code_lines": 201,
+    "workflow_lines": 79,
+    "dependencies": [
+      "numpy>=1.26,<3",
+      "pandas>=2.1,<3",
+      "scipy>=1.11,<2",
+      "scikit-learn>=1.4,<2",
+      "matplotlib>=3.8,<4",
+      "joblib>=1.3,<2",
+      "threadpoolctl>=3.2,<4"
+    ]
+  }
+]

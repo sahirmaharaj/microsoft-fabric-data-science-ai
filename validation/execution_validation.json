@@ -1,0 +1,13 @@
+{
+  "workflows": 60,
+  "numbered_range": "1737-1796",
+  "scripts_checked": 60,
+  "script_status": "passed",
+  "notebooks": 60,
+  "scripts": 60,
+  "output_files": 660,
+  "format_validation": {
+    "violations": [],
+    "files_checked": 120
+  }
+}
